@@ -33,10 +33,9 @@ p {
     font-size: 100px;
     color: white;
 }
-/* スマホ（600px以下）のとき */
 @media screen and (max-width: 600px) {
     h1 {
-        font-size: 40px;  /* PCより小さく */
+        font-size: 40px; 
     }
     p {
         font-size: 20px;
@@ -47,13 +46,13 @@ p {
     #btn button {
         height: 50px;
         width: 120px;
-        font-size: 16px; /* ボタンの文字サイズも調整 */
+        font-size: 16px; 
     }
     #result {
-        font-size: 40px; /* 結果の文字も小さめに */
+        font-size: 40px; 
     }
     #userInput {
-        width: 80%;  /* 入力欄を画面幅に合わせる */
+        width: 80%;  
         font-size: 18px;
     }
 }
