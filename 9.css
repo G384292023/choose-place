@@ -33,3 +33,27 @@ p {
     font-size: 100px;
     color: white;
 }
+/* スマホ（600px以下）のとき */
+@media screen and (max-width: 600px) {
+    h1 {
+        font-size: 40px;  /* PCより小さく */
+    }
+    p {
+        font-size: 20px;
+    }
+    .count {
+        font-size: 20px;
+    }
+    #btn button {
+        height: 50px;
+        width: 120px;
+        font-size: 16px; /* ボタンの文字サイズも調整 */
+    }
+    #result {
+        font-size: 40px; /* 結果の文字も小さめに */
+    }
+    #userInput {
+        width: 80%;  /* 入力欄を画面幅に合わせる */
+        font-size: 18px;
+    }
+}
